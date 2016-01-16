@@ -17,6 +17,7 @@ lazy val $name;format="camel"$ = crossProject
     version := "$version$",
     scalaVersion := "2.11.7",
     scalacOptions ++= Seq(
+      "-encoding", "UTF-8",
       "-deprecation", 
       "-feature", 
       "-Xlint"
